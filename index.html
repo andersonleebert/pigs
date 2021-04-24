@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8" />
+	<title>PIGS main screen</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	
+</head>
+<body>
+<div id="allContentWrapper">
+	<div id="nav">
+		<div class="navItem" id="buckerNavItem"><span class="aligner"></span>Buckets</div><div class="navItem"><span class="aligner"></span>Add</div><div class="navItem"><span class="aligner"></span>Settings</div>
+	</div>
+	<div id="bucketPicker">
+		<div id="projectBucketPicker" class="bucketPicker" data-bucket="project">
+			<span class="aligner"></span>
+			Projects
+		</div>
+		<div id="goalBucketPicker" class="bucketPicker" data-bucket="goal">
+			<span class="aligner"></span>
+			Goals
+		</div>
+		<div id="ideaBucketPicker" class="bucketPicker" data-bucket="idea">
+			<span class="aligner"></span>
+			Ideas
+		</div>
+	</div>
+	<div id="views">
+		<div id="projectBucketView" class="bucketView" data-bucket="project">
+			<h2>Projects</h2>
+			<ul>
+				<li>p1</li>
+				<li>p2</li>
+				<li>p3</li>
+			</ul>
+		</div>
+		<div id="goalBucketView" class="bucketView" data-bucket="goal">
+			<h2>Goals</h2>
+		</div>
+		<div id="ideaBucketView" class="bucketView" data-bucket="idea">
+			<h2>Ideas</h2>
+		</div>
+	</div>
+	<div id="textEntry"></div>
+</div>
+
+<script type="text/javascript" src="js/jquery-3.6.0-min.js"></script>
+<script type="text/javascript" src="js/lodash-1.8.3-min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
